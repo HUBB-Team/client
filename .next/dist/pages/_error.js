@@ -4,31 +4,31 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/babel-runtime/core-js/object/get-prototype-of');
+var _getPrototypeOf = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/babel-runtime/core-js/object/get-prototype-of');
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/babel-runtime/helpers/classCallCheck');
+var _classCallCheck2 = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/babel-runtime/helpers/classCallCheck');
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/babel-runtime/helpers/createClass');
+var _createClass2 = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/babel-runtime/helpers/createClass');
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/babel-runtime/helpers/possibleConstructorReturn');
+var _possibleConstructorReturn2 = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/babel-runtime/helpers/possibleConstructorReturn');
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/babel-runtime/helpers/inherits');
+var _inherits2 = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/babel-runtime/helpers/inherits');
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _react = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/react/react.js');
+var _react = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/react/react.js');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _css = require('/home/grisa/\u041F\u0440\u043E\u0435\u043A\u0442\u044B/HUBB-Team/test-client/node_modules/next/dist/lib/css.js');
+var _css = require('/tmp/tmp.b8WWAIxRFI/test-client/node_modules/next/dist/lib/css.js');
 
 var _css2 = _interopRequireDefault(_css);
 

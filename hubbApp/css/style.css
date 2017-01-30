@@ -1,0 +1,92 @@
+header, main, footer{
+padding-left: 300px; 
+
+}
+nav.top-nav {
+    height: 495px;
+    background-color: #9c27b0;
+}
+.top-nav .container {
+    height: inherit;
+}
+a.button-collapse.top-nav {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 20px;
+    float: none;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 36px;
+    z-index: 2;
+}
+a.page-title{
+
+ line-height: 80px;
+ font-size: 70px;
+
+}
+.container .nav-wrapper{
+ text-align: center;
+ padding-top: 80px;
+
+
+}
+a.button-collapse.top-nav i {
+    font-size: 32px;
+}
+
+li.logo {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.card .card-title {
+    font-size: 32px;
+    }
+.card .card-content p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+#logo-container {
+    height: 150px;
+    margin-bottom: 30px;
+}
+#logo-container:hover {
+    background-color: transparent;
+}
+.huinea{
+	padding: 24px 100px 20px 100px;
+}
+
+ul.side-nav.fixed li a {
+ padding: 0 31px;
+
+}
+
+ul.side-nav.fixed ul.collapsible-accordion a.collapsible-header {
+    padding: 0 31px;
+}
+.side-nav .collapsible-body {
+    padding: 0px;
+}
+ul.side-nav.fixed ul.collapsible-accordion .collapsible-body li a {
+    font-weight: 400;
+    padding: 0 37.5px 0 45px;
+}
+.side-nav .collapsible-body>ul:not(.collapsible)>li.active, .side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active {
+    background-color: #ee6e73;
+}
+
+.side-nav .collapsible-body>ul:not(.collapsible)>li.active a, .side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active a {
+    color: #fff;
+}
+
+@media only screen and (max-width: 992px) {header, main, footer {
+    padding-left: 0;
+}}

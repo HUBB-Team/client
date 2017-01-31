@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 
 export default class Main extends React.Component {
   render () {
@@ -73,6 +74,12 @@ export default class Main extends React.Component {
             <li><a href="#">Contact</a></li>
           </ul>
         </header>
+        <main>
+          <div className="container">
+            <div className="row" />
+          </div>
+          <Footer />
+        </main>
       </div>
     )
   }

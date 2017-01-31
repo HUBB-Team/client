@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default class Header extends React.Component {
+export default class Styles extends React.Component {
   render () {
     return (
       <Head>

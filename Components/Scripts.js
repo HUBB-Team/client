@@ -1,5 +1,5 @@
 
-export default class Footer extends React.Component {
+export default class Scripts extends React.Component {
   render () {
     return (
       <div>

@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import Header from '../Components/Header'
-import Footer from '../Components/Footer'
+import Styles from '../Components/Styles'
+import Scripts from '../Components/Scripts'
 
 export default class Main extends React.Component {
   render () {
     return (
       <div>
-        <Header />
+        <Styles />
         <header>
           <nav className="top-nav">
             <div className="container">
@@ -78,7 +78,7 @@ export default class Main extends React.Component {
           <div className="container">
             <div className="row" />
           </div>
-          <Footer />
+          <Scripts />
         </main>
       </div>
     )

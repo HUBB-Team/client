@@ -17,6 +17,21 @@
   },
   "homepage": "https://github.com/HUBB-Team/test-client#readme",
   "dependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-latest": "^0.2.6",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-config-strict": "^10.0.4",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-unicorn": "^1.0.0",
     "next": "^1.2.3"
   }
 }

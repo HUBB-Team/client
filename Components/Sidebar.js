@@ -9,7 +9,7 @@ export default class Sidebar extends React.PureComponent {
         </div>
         <ul id="nav-mobile" className="side-nav fixed ">
           <li className="logo">
-            <a id="logo-container" href="index.html"><img src="/static/logo/hubbteam.png" alt="My Logo" /></a></li>
+            <a id="logo-container" href="index.js"><img src="/static/logo/hubbteam.png" alt="My Logo" /></a></li>
           <li>
             <nav className="purple">
               <div className="nav-wrapper">
@@ -24,23 +24,19 @@ export default class Sidebar extends React.PureComponent {
             </nav>
           </li>
           <li><Link href="/">About</Link></li>
-          <li className="no-padding">
-            <ul className="collapsible collapsible-accordion">
-              <li><a className="collapsible-header waves-effect waves-purple" href="#">Team</a>
-                <div className="collapsible-body">
-                  <ul>
-                    <li><a href="index.html">Horos Gregory</a></li>
-                    <li><a href="#">Ungur Stephen</a></li>
-                    <li><a href="#">Bumbu Tudor</a></li>
-                    <li><a href="#">Bostan John</a></li>
-                    <li><a href="#">Tkacenko Alexander</a></li>
-                  </ul>
-                </div>
-              </li>
+
+          <ul>
+            <li className="">Team</li>
+            <ul>
+              <li><Link href="/horos">Grigore Horos</Link></li>
+              <li><Link href="/ungur">Ungur Stefan</Link></li>
+              <li><Link href="#">Bumbu Tudor</Link></li>
+              <li><Link href="#">Bostan John</Link></li>
+              <li><Link href="#">Tkacenko Alexander</Link></li>
             </ul>
-          </li>
+          </ul>
           <li><Link href="/credo">Credo</Link></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link href="#">Contact</Link></li>
         </ul>
       </div>
     )

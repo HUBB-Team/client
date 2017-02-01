@@ -38,5 +38,6 @@ jspm_packages
 
 ### Custom
 .next
-
 .next/
+bower_components
+bower_components/

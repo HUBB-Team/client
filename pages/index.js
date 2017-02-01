@@ -1,11 +1,11 @@
-import Styles from '../Components/Styles'
+import Header from '../Components/Header'
 import LeftMenu from '../Components/LeftMenu'
 
 export default class Main extends React.Component {
   render () {
     return (
       <div>
-        <Styles />
+        <Header />
         <header>
           <LeftMenu />
           <nav className="top-nav">

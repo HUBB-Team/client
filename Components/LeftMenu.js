@@ -47,7 +47,6 @@ export default class LeftMenu extends React.PureComponent {
   }
   componentDidMount () {
     $('.button-collapse').sideNav()
-    alert(1)
   }
 
 }

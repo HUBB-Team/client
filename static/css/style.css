@@ -28,6 +28,11 @@ a.page-title{
  font-size: 70px;
 
 }
+a.page-title1{
+ line-height:300px;
+ font-size: 70px;
+
+}
 .container .nav-wrapper{
  text-align: center;
  padding-top: 80px;
@@ -45,6 +50,36 @@ li.logo {
   margin-bottom: 130px;
 }
 
+   .input-field input[type=text]:focus + label {
+     color: purple;
+   }
+   .input-field input[type=text]:focus {
+  border-bottom: 1px solid purple;
+  box-shadow: 0 1px 0 0 purple;
+}
+.checkbox-indigo[type="checkbox"] + label:before{
+  border: 2px solid purple;
+  background: transparent;
+}
+.checkbox-indigo[type="checkbox"]:checked + label:before{
+  border: 2px solid transparent;
+  border-bottom: 2px solid purple;
+  border-right: 2px solid purple;
+  background: transparent;
+}
+.checkbox-indigo.filled-in[type="checkbox"] + label:after{
+  border: 2px solid purple;
+  background: transparent;
+}
+.checkbox-indigo.filled-in[type="checkbox"]:checked + label:after{
+  background: purple;
+}
+.checkbox-indigo.filled-in[type="checkbox"]:checked + label:before{
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
 .card .card-title {
     font-size: 32px;
     }
@@ -66,6 +101,7 @@ ul.side-nav.fixed li a {
  padding: 0 31px;
 
 }
+
 
 ul.side-nav.fixed ul.collapsible-accordion a.collapsible-header {
     padding: 0 31px;

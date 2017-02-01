@@ -9,7 +9,7 @@ export default class Sidebar extends React.PureComponent {
         </div>
         <ul id="nav-mobile" className="side-nav fixed ">
           <li className="logo">
-            <Link id="logo-container" href="/"><img src="/static/logo/hubbteam.png" alt="My Logo" /></Link></li>
+            <a id="logo-container" href="/"><img src="/static/logo/hubbteam.png" alt="My Logo" /></a></li>
           <li>
             <nav className="purple" />
           </li>

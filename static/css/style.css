@@ -1,5 +1,5 @@
 header, main, footer{
-padding-left: 300px; 
+padding-left: 300px;
 
 }
 nav.top-nav {
@@ -34,13 +34,15 @@ a.page-title{
 
 
 }
-a.button-collapse.top-nav i {
-    font-size: 32px;
+ul.team li {
+    padding:0 31px;
+    font-size: 30px;
 }
 
 li.logo {
 	text-align: center;
 	margin-top: 30px;
+  margin-bottom: 130px;
 }
 
 .card .card-title {
@@ -53,10 +55,6 @@ li.logo {
     font-weight: 300;
 }
 
-#logo-container {
-    height: 150px;
-    margin-bottom: 30px;
-}
 #logo-container:hover {
     background-color: transparent;
 }

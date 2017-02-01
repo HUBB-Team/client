@@ -9,34 +9,22 @@ export default class Sidebar extends React.PureComponent {
         </div>
         <ul id="nav-mobile" className="side-nav fixed ">
           <li className="logo">
-            <a id="logo-container" href="index.js"><img src="/static/logo/hubbteam.png" alt="My Logo" /></a></li>
+            <Link id="logo-container" href="/"><img src="/static/logo/hubbteam.png" alt="My Logo" /></Link></li>
           <li>
-            <nav className="purple">
-              <div className="nav-wrapper">
-                <form>
-                  <div className="input-field">
-                    <input id="search" type="search" required />
-                    <label className="label-icon" htmlFor="search"><i className="material-icons">search</i></label>
-                    <i className="material-icons">close</i>
-                  </div>
-                </form>
-              </div>
-            </nav>
+            <nav className="purple" />
           </li>
           <li><Link href="/">About</Link></li>
-
           <ul>
-            <li className="">Team</li>
-            <ul>
+            <li><Link href="/team">Team </Link></li>
+            <ul className="team">
               <li><Link href="/horos">Grigore Horos</Link></li>
               <li><Link href="/ungur">Ungur Stefan</Link></li>
-              <li><Link href="#">Bumbu Tudor</Link></li>
-              <li><Link href="#">Bostan John</Link></li>
-              <li><Link href="#">Tkacenko Alexander</Link></li>
+              <li><Link href="/bumbu">Bumbu Tudor</Link></li>
+              <li><Link href="/bostan">Bostan John</Link></li>
+              <li><Link href="/tkacenko">Tkacenko Alexander</Link></li>
             </ul>
           </ul>
-          <li><Link href="/credo">Credo</Link></li>
-          <li><Link href="#">Contact</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
         </ul>
       </div>
     )

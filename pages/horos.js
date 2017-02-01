@@ -11,14 +11,14 @@ export default class Horos extends React.Component {
           <nav className="top-nav">
             <div className="container">
               <div className="nav-wrapper">
-                <a className="page-title">My name is Grigorii Horos</a>
-                <img className="" src="/static/images/bum.png" alt="bum" />
+                <a className="page-title1">Grigorii Horos</a><br />
+                <img className="" src="/static/images/horos.png" alt="horos" />
 
                 <div className="card green lighten-5">
 
                   <div className="card-content black-text">
 
-                    <span className="card-title">Who we are and what is our goal</span>
+                    <span className="card-title">Team Leader</span>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

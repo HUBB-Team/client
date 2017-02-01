@@ -1,7 +1,7 @@
 import Header from '../Components/Header'
 import Sidebar from '../Components/Sidebar'
 
-export default class Horos extends React.Component {
+export default class Bostan extends React.Component {
   render () {
     return (
       <div>
@@ -11,14 +11,14 @@ export default class Horos extends React.Component {
           <nav className="top-nav">
             <div className="container">
               <div className="nav-wrapper">
-                <a className="page-title">My name is Bostan Ion</a>
-                <img className="" src="/static/images/bum.png" alt="bum" />
+                <a className="page-title1">Bostan Ion</a><br />
+                <img className="" src="/static/images/bostan.png" alt="bostan" />
 
                 <div className="card green lighten-5">
 
                   <div className="card-content black-text">
 
-                    <span className="card-title">Who we are and what is our goal</span>
+                    <span className="card-title">Java Developer</span>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

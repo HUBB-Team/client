@@ -5,17 +5,16 @@ export default class Sidebar extends React.PureComponent {
     return (
       <div>
         <div className="container">
-          <a href="#" data-activates="nav-mobile" className="button-collapse top-nav full hide-on-large-only"><i className="material-icons">menu</i></a>
+          <a data-activates="nav-mobile" className="button-collapse top-nav full hide-on-large-only"><i className="material-icons">menu</i></a>
         </div>
-        <ul id="nav-mobile" className="side-nav fixed ">
+        <ul id="nav-mobile" className="side-nav fixed">
           <li className="logo">
-            <a id="logo-container" href="/"><img src="/static/logo/hubbteam.png" alt="My Logo" /></a></li>
+            <Link href="/"><img src="/static/logo/hubbteam.png" alt="My Logo" /></Link></li>
           <li>
             <nav className="purple" />
           </li>
-          <li><Link href="/">About</Link></li>
           <ul>
-            <li><Link href="/team">Team </Link></li>
+            <li><Link>Team </Link></li>
             <ul className="team">
               <li><Link href="/horos">Grigore Horos</Link></li>
               <li><Link href="/ungur">Ungur Stefan</Link></li>

@@ -1,7 +1,7 @@
 import Header from '../Components/Header'
 import Sidebar from '../Components/Sidebar'
 
-export default class Horos extends React.Component {
+export default class Team extends React.Component {
   render () {
     return (
       <div>

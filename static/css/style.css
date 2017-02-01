@@ -2,6 +2,9 @@ header, main, footer{
 padding-left: 300px;
 
 }
+main{
+  margin-top: 50px;
+}
 nav.top-nav {
     height: 495px;
     background-color: #9c27b0;
@@ -49,37 +52,6 @@ li.logo {
 	margin-top: 30px;
   margin-bottom: 130px;
 }
-
-   .input-field input[type=text]:focus + label {
-     color: purple;
-   }
-   .input-field input[type=text]:focus {
-  border-bottom: 1px solid purple;
-  box-shadow: 0 1px 0 0 purple;
-}
-.checkbox-indigo[type="checkbox"] + label:before{
-  border: 2px solid purple;
-  background: transparent;
-}
-.checkbox-indigo[type="checkbox"]:checked + label:before{
-  border: 2px solid transparent;
-  border-bottom: 2px solid purple;
-  border-right: 2px solid purple;
-  background: transparent;
-}
-.checkbox-indigo.filled-in[type="checkbox"] + label:after{
-  border: 2px solid purple;
-  background: transparent;
-}
-.checkbox-indigo.filled-in[type="checkbox"]:checked + label:after{
-  background: purple;
-}
-.checkbox-indigo.filled-in[type="checkbox"]:checked + label:before{
-  border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
 .card .card-title {
     font-size: 32px;
     }
@@ -89,9 +61,8 @@ li.logo {
     line-height: 30px;
     font-weight: 300;
 }
-
-#logo-container:hover {
-    background-color: transparent;
+li.logo a:hover{
+background-color: transparent;
 }
 .huinea{
 	padding: 24px 100px 20px 100px;
@@ -101,26 +72,52 @@ ul.side-nav.fixed li a {
  padding: 0 31px;
 
 }
-
-
-ul.side-nav.fixed ul.collapsible-accordion a.collapsible-header {
-    padding: 0 31px;
-}
-.side-nav .collapsible-body {
-    padding: 0px;
-}
-ul.side-nav.fixed ul.collapsible-accordion .collapsible-body li a {
-    font-weight: 400;
-    padding: 0 37.5px 0 45px;
-}
-.side-nav .collapsible-body>ul:not(.collapsible)>li.active, .side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active {
-    background-color: #ee6e73;
-}
-
-.side-nav .collapsible-body>ul:not(.collapsible)>li.active a, .side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active a {
-    color: #fff;
-}
-
 @media only screen and (max-width: 992px) {header, main, footer {
     padding-left: 0;
 }}
+
+/*contact us page style*/
+.input-field input[type=text]:focus + label {
+     color: purple;
+   }
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid purple;
+  box-shadow: 0 1px 0 0 purple;
+}
+.input-field input[type=email]:focus + label {
+  color: purple;
+}
+.input-field input[type=email]:focus {
+border-bottom: 1px solid purple;
+box-shadow: 0 1px 0 0 purple;
+}
+#message:focus + label {
+  color: purple;
+}
+#message:focus {
+border-bottom: 1px solid purple;
+box-shadow: 0 1px 0 0 purple;
+}
+.material-icons.prefix.active{
+      color: purple;
+    }
+.checkbox-purple[type="checkbox"] + label:before{
+  border: 2px solid purple;
+  background: transparent;
+}
+.checkbox-purple[type="checkbox"]:checked + label:before{
+  border: 2px solid transparent;
+  border-bottom: 2px solid purple;
+  border-right: 2px solid purple;
+  background: transparent;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}

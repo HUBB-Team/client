@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default class LeftMenu extends React.PureComponent {
+export default class Sidebar extends React.PureComponent {
   render () {
     return (
       <div>

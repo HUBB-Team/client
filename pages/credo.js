@@ -1,5 +1,5 @@
 import Header from '../Components/Header'
-import LeftMenu from '../Components/LeftMenu'
+import Sidebar from '../Components/Sidebar'
 
 export default class Main extends React.Component {
   render () {
@@ -7,7 +7,7 @@ export default class Main extends React.Component {
       <div>
         <Header />
         <header>
-          <LeftMenu />
+          <Sidebar />
           <nav className="top-nav">
             <div className="container">
               <div className="nav-wrapper">
@@ -35,7 +35,6 @@ export default class Main extends React.Component {
           <div className="container">
             <div className="row" />
           </div>
-          <Scripts />
         </main>
       </div>
     )

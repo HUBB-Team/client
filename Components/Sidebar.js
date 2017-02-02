@@ -27,7 +27,6 @@ export default class Sidebar extends React.PureComponent {
                 </div>
               </li>
             </ul>
-
           </li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
@@ -35,11 +34,10 @@ export default class Sidebar extends React.PureComponent {
     )
   }
   componentDidMount () {
-    // $('.button-collapse').sideNav()
     $(this.refs.collapsible).collapsible({
-      accordion: false, // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-      onOpen: function (el) { }, // Callback for Collapsible open
-      onClose: function (el) { return false } // Callback for Collapsible close
+      accordion: false,
+      onOpen: function (el) { },
+      onClose: function (el) { return false }
 
     })
   }

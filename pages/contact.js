@@ -29,52 +29,25 @@ export default class Contact extends React.Component {
                         <label htmlFor="first_name">Full Name</label>
                       </div>
                       <div className="input-field col m6 s12">
-                        <i className="material-icons prefix">phone</i>
-                        <input id="last_name" type="text" className="validate" />
-                        <label htmlFor="last_name">Telephone</label>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="input-field col m6 s12">
                         <i className="material-icons prefix">email</i>
                         <input id="email" type="email" className="validate" required />
                         <label htmlFor="email">Email</label>
-                      </div>
-                      <div className="input-field col m6 s12">
-                        <i className="material-icons prefix">work</i>
-                        <input id="company" type="text" className="validate" />
-                        <label htmlFor="company">Company</label>
                       </div>
                     </div>
                     <div className="row">
                       <div className="input-field col s12">
                         <i className="material-icons prefix">mode_edit</i>
-                        <textarea id="message" className="materialize-textarea" />
+                        <textarea id="message" className="materialize-textarea" data-length="3000" ref="message" />
                         <label htmlFor="message">Message</label>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="input-field col s12">
-                        <label htmlFor="preferences">Communication Preferences</label>
-                        <br />
-                      </div>
-                      <div className="input-field col m4 s12 center-align">
-                        <input name="group2" className="checkbox-purple" type="checkbox" id="emailComm" />
-                        <label htmlFor="emailComm">Email</label>
-                      </div>
-                      <div className="input-field col m4 s12 center-align">
-                        <input name="group2" className="checkbox-purple" type="checkbox" id="callComm" />
-                        <label htmlFor="callComm">Call Me</label>
-                      </div>
-                      <div className="input-field col m4 s12 center-align">
-                        <input name="group2" className="checkbox-purple" type="checkbox" id="newsletter" />
-                        <label htmlFor="newsletter">Newsletter</label>
-                      </div>
-                    </div>
-                    <div className="divider" />
-                    <div className="row">
                       <div className="col m12">
-                        <p className="right-align"><button className="btn btn-large waves-effect waves-light purple" type="button" name="action">Send Message</button></p>
+                        <p className="right-align">
+                          <button className="btn btn-large waves-effect waves-light purple" type="button" name="action">
+                            Send Message
+                          </button>
+                        </p>
                       </div>
                     </div>
                   </form>
@@ -86,5 +59,8 @@ export default class Contact extends React.Component {
         </main>
       </div>
     )
+  }
+  componentDidMount () {
+    $(this.refs.message).characterCounter()
   }
 }

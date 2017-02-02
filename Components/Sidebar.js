@@ -16,7 +16,7 @@ export default class Sidebar extends React.PureComponent {
           <ul>
             <li><Link>Team </Link></li>
             <ul className="team">
-              <li><Link href="/horos">Grigore Horos</Link></li>
+              <li><Link href="/horos">Horos Grigorii</Link></li>
               <li><Link href="/ungur">Ungur Stefan</Link></li>
               <li><Link href="/bumbu">Bumbu Tudor</Link></li>
               <li><Link href="/bostan">Bostan John</Link></li>

@@ -20,7 +20,7 @@ a.button-collapse.top-nav {
     text-align: center;
     height: 48px;
     width: 48px;
-    left: 7.5%;
+    left: 0;
     top: 20px;
     float: none;
     margin-left: 1.5rem;
@@ -38,9 +38,8 @@ a.page-title1{
 
 
 }
-ul.team li {
-    padding:0 31px;
-    font-size: 30px;
+ul.team li a{
+ padding: 0 41px;
 }
 li.logo {
 	text-align: center;
@@ -62,20 +61,29 @@ background-color: transparent;
 .huinea{
 	padding: 24px 100px 20px 100px;
 }
-
-ul.side-nav.fixed li a {
- padding: 0 31px;
-
-}
 @media only screen and (max-width: 992px) {header, main, footer {
     padding-left: 0;
 }}
+@media only screen and (max-width: 992px) {a.page-title1{
+ line-height:130px;
+ font-size: 50px;
+}}
+@media only screen and (max-width: 992px) {nav.top-nav{
+height: 300px;
+}}
+.cv{
 
+  margin-top: 200px;
+}
 /*contact us page style*/
 .input-field input[type=text]:focus + label {
      color: purple;
    }
 .input-field input[type=text]:focus {
+  border-bottom: 1px solid purple;
+  box-shadow: 0 1px 0 0 purple;
+}
+.input-field input[type=text].valid {
   border-bottom: 1px solid purple;
   box-shadow: 0 1px 0 0 purple;
 }
@@ -86,10 +94,22 @@ ul.side-nav.fixed li a {
 border-bottom: 1px solid purple;
 box-shadow: 0 1px 0 0 purple;
 }
+.input-field input[type=email].invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 red;
+}
+.input-field input[type=email].valid {
+  border-bottom: 1px solid purple;
+  box-shadow: 0 1px 0 0 purple;
+}
 #message:focus + label {
   color: purple;
 }
 #message:focus {
+border-bottom: 1px solid purple;
+box-shadow: 0 1px 0 0 purple;
+}
+#message:active {
 border-bottom: 1px solid purple;
 box-shadow: 0 1px 0 0 purple;
 }

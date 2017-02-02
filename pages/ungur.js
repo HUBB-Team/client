@@ -12,7 +12,7 @@ export default class Ungur extends React.Component {
             <div className="container">
               <div className="nav-wrapper">
                 <a className="page-title1">Ungur Stefan</a><br />
-                <img className="" src="/static/images/ungur.png" alt="ungur" />
+                <img className="" src="/static/images/ungur1.png" alt="ungur" />
 
                 <div className="card green lighten-5">
 

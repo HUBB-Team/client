@@ -12,7 +12,7 @@ export default class Bostan extends React.Component {
             <div className="container">
               <div className="nav-wrapper">
                 <a className="page-title1">Bostan Ion</a><br />
-                <img className="" src="/static/images/bostan.png" alt="bostan" />
+                <img className="" src="/static/images/bostan2.png" alt="bostan" />
 
                 <div className="card green lighten-5">
 

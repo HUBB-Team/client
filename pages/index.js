@@ -72,7 +72,7 @@ export default class Main extends React.Component {
         <footer>
           <div className="footer-copyright">
             <div className="container center">
-                Designed by <Link className="purple" href="/bumbu">HUBB Tudor</Link>
+                Made by <Link className="purple" href="/team">HUBB Team</Link>
             </div>
           </div>
         </footer>

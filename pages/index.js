@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Header from '../Components/Header'
 import Sidebar from '../Components/Sidebar'
 
@@ -71,7 +72,7 @@ export default class Main extends React.Component {
         <footer>
           <div className="footer-copyright">
             <div className="container center">
-                Designed by <a className="purple-text text-lighten-3" href="/bumbu">HUBB Tudor</a>
+                Designed by <Link className="purple" href="/bumbu">HUBB Tudor</Link>
             </div>
           </div>
         </footer>

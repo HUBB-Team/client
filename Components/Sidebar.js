@@ -14,13 +14,12 @@ export default class Sidebar extends React.PureComponent {
             <nav className="purple" />
           </li>
           <ul>
-            <li><Link>Team </Link></li>
+            <li id="team">Team</li>
             <ul className="team">
               <li><Link href="/horos">Horos Grigorii</Link></li>
               <li><Link href="/ungur">Ungur Stefan</Link></li>
               <li><Link href="/bumbu">Bumbu Tudor</Link></li>
               <li><Link href="/bostan">Bostan John</Link></li>
-              <li><Link href="/tkacenko">Tkacenko Alexander</Link></li>
             </ul>
           </ul>
           <li><Link href="/contact">Contact</Link></li>

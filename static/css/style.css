@@ -12,6 +12,9 @@ nav.top-nav {
 .top-nav .container {
     height: inherit;
 }
+a{
+  color: purple;
+}
 a.button-collapse.top-nav {
     position: absolute;
     text-align: center;
@@ -45,6 +48,9 @@ a.page-title1{
 ul.team li {
     padding:0 31px;
     font-size: 30px;
+}
+#team{
+  padding-left: 31px;
 }
 
 li.logo {
@@ -112,7 +118,7 @@ box-shadow: 0 1px 0 0 purple;
   background: transparent;
 }
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;

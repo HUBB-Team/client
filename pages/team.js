@@ -1,4 +1,3 @@
-import Sidebar from '../Components/Sidebar'
 import Link from 'next/link'
 
 export default class Team extends React.Component {
@@ -49,9 +48,7 @@ export default class Team extends React.Component {
                     <span className="card-title">Ungur Stefan</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                              tempor incididunt ut labore et dolore magna aliqua.
-
                              </p>
-
                   </div>
                 </div>
               </Link>

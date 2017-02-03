@@ -30,6 +30,21 @@ export default class MyDocument extends Document {
               </div>
             </div>
           </footer>
+          <style jsx>{`
+            
+            footer {
+              position: fixed;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              padding-top: 1rem;
+              padding-bottom: 1rem;
+              background-color: #efefef;
+              text-align: center;
+            }
+
+          
+          `}</style>
 
           <script src="/static/bower_components/jquery/dist/jquery.js" />
           <script src="/static/bower_components/materialize/dist/js/materialize.js" />
@@ -39,3 +54,4 @@ export default class MyDocument extends Document {
     )
   }
 }
+

@@ -13,6 +13,7 @@ export default class MyDocument extends Document {
           <title> Our Site </title>
           <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
           <link rel="stylesheet" href="/static/bower_components/materialize/dist/css/materialize.css" />
+          <link rel="stylesheet" href="static/bower_components/mdi/css/materialdesignicons.min.css" />
           <link rel="stylesheet" href="/static/css/style.css" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
@@ -27,4 +28,3 @@ export default class MyDocument extends Document {
     )
   }
 }
-

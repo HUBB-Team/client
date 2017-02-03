@@ -16,7 +16,7 @@ export default class Sidebar extends React.PureComponent {
           <li>
             <ul className="collapsible active" data-collapsible="accordion" ref="collapsible">
               <li>
-                <div className="collapsible-header"><i className="material-icons">filter_drama</i>Team</div>
+                <div className="collapsible-header"><i className="material-icons purple-text">group_work</i>Team</div>
                 <div className="collapsible-body" style={{padding: '0 10px'}} >
                   <ul className="active">
                     <li><Link href="/horos">Grigorii Horos</Link></li>

@@ -52,8 +52,10 @@ a.page-title1 {
 
 .container .nav-wrapper {
   text-align: center;
-  padding-top: 80px;
 }
+@media only screen and (max-width: 992px){.container .nav-wrapper{
+  padding-top: 80px;
+  }}
 
 ul.team li a {
   padding: 0 41px;
@@ -78,10 +80,6 @@ li.logo {
 
 li.logo a:hover {
   background-color: transparent;
-}
-
-.huinea {
-  padding: 24px 100px 20px;
 }
 
 @media only screen and (max-width: 992px) {

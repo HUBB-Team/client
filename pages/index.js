@@ -11,7 +11,7 @@ export default class Main extends React.Component {
         <main>
           <nav className="top-nav">
             <div className="container">
-              <div className="nav-wrapper">
+              <div className="nav-wrapper1">
                 <a className="page-title1">HUBB Team</a>
               </div>
             </div>
@@ -84,6 +84,10 @@ export default class Main extends React.Component {
           'padding-bottom': '1rem';
           'background-color': '#efefef';
           'text-align': 'center';
+        }
+        .container .nav-wrapper1 {
+          text-align: center;
+          padding-top: 80px;
         }
       `}</style>
       </div>

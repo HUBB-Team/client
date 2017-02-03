@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
         <main>
           <nav className="top-nav">
             <div className="container">
-              <div className="nav-wrapper">
+              <div className="nav-wrapper1">
                 <a className="page-title1">Contact Us </a>
               </div>
             </div>
@@ -123,6 +123,10 @@ export default class Contact extends React.Component {
             border-bottom: 2px solid purple;
             border-right: 2px solid purple;
             background: transparent;
+          }
+          .container .nav-wrapper1 {
+            text-align: center;
+            padding-top: 80px;
           }
         `}</style>
       </div>

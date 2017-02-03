@@ -6,7 +6,7 @@ import css from 'next/css'
 export default class MyDocument extends Document {
   static async getInitialProps (ctx) {
     const props = await Document.getInitialProps(ctx)
-    return { ...props, customValue: 'hi there!' }
+    return props
   }
 
   render () {

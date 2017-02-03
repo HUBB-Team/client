@@ -14,11 +14,11 @@ export default class Sidebar extends React.PureComponent {
             <Link href="/"><img src="/static/logo/hubbteam.png" alt="My Logo" /></Link>
           </li>
           <li>
-            <ul className="collapsible" data-collapsible="accordion" ref="collapsible">
+            <ul className="collapsible active" data-collapsible="accordion" ref="collapsible">
               <li>
                 <div className="collapsible-header"><i className="material-icons">filter_drama</i>Team</div>
                 <div className="collapsible-body" style={{padding: '0 10px'}} >
-                  <ul >
+                  <ul className="active">
                     <li><Link href="/horos">Grigorii Horos</Link></li>
                     <li><Link href="/bumbu">Tudor Bumbu</Link></li>
                     <li><Link href="/ungur">Stefan Ungur</Link></li>

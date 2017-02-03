@@ -19,29 +19,7 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
         <body>
-          <header>
-            <Sidebar />
-          </header>
           <Main />
-          <footer >
-            <div className="footer-copyright">
-              <div className="container center">
-                    Made by <Link className="purple" href="/team"><span>HUBB Team</span></Link>
-              </div>
-            </div>
-          </footer>
-          <style jsx>{`
-            footer {
-              position: 'fixed';
-              right: 0;
-              bottom: 0;
-              left: 0;
-              'padding-top': '1rem';
-              'padding-bottom': '1rem';
-              'background-color': '#efefef';
-              'text-align': 'center';
-            }
-    `}</style>
 
           <script src="/static/bower_components/jquery/dist/jquery.js" />
           <script src="/static/bower_components/materialize/dist/js/materialize.js" />

@@ -1,61 +1,35 @@
-import Header from '../Components/Header'
-import Sidebar from '../Components/Sidebar'
 
 export default class Bumbu extends React.Component {
   render () {
     return (
-      <div>
-        <Header />
-        <header>
-          <Sidebar />
-          <nav className="top-nav">
-            <div className="container">
-              <div className="nav-wrapper">
-                <a className="page-title1">Bumbu Tudor</a><br />
-                <img className="" src="/static/images/tudor.png" alt="bum" />
-
-              </div>
-            </div>
-          </nav>
-        </header>
-        <main>
+      <main>
+        <nav className="top-nav">
           <div className="container">
-            <div className="cv">
-              <div className="row">
-                <div className="col s12">
-                  <div className="card brown darken-3">
+            <div className="nav-wrapper">
+              <a className="page-title1">Bumbu </a><br />
+              <img className="" src="/static/images/bostan2.png" alt="bostan" />
 
-                    <div className="card-content">
+              <div className="card green lighten-5">
 
-                      <span className="card-title center white-text">Web Designer</span>
+                <div className="card-content black-text">
 
-                      <ul className="collapsible" data-collapsible="accordion">
-                        <li>
-                          <div className="collapsible-header"><i className="material-icons">info</i>About</div>
-                          <div className="collapsible-body"><span className="white-text">Lorem ipsum dolor sit amet.</span></div>
-                        </li>
-                        <li>
-                          <div className="collapsible-header"><i className="material-icons">insert_chart</i>Skills</div>
-                          <div className="collapsible-body"><span className="white-text">Lorem ipsum dolor sit amet.</span></div>
-                        </li>
-                        <li>
-                          <div className="collapsible-header"><i className="material-icons">work</i>Projects</div>
-                          <div className="collapsible-body"><span className="white-text">Lorem ipsum dolor sit amet.</span></div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  <span className="card-title">Java Developer</span>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                             </p>
                 </div>
               </div>
+
             </div>
           </div>
-        </main>
-      </div>
+        </nav>
+      </main>
     )
-  }
-  componentDidMount () {
-    $(document).ready(function () {
-      $('.collapsible').collapsible()
-    })
   }
 }

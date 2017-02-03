@@ -40,6 +40,11 @@ export default class Sidebar extends React.PureComponent {
       onClose: function (el) { return false }
 
     })
+    $('.button-collapse').sideNav({
+      closeOnClick: true,
+      draggable: true
+    }
+  )
   }
 
 }

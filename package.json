@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "next"
+    "start": "next"
   },
   "repository": {
     "type": "git",

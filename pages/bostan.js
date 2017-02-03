@@ -19,24 +19,19 @@ export default class Bostan extends React.Component {
           </nav>
           <div className="container">
             <div className="subimage">
-              <h5 className="center">Java Developer</h5>
               <ul className="collapsible" data-collapsible="accordion">
                 <li>
                   <div className="collapsible-header"><i className="mdi mdi-account-box small purple-text" />About</div>
                   <div className="collapsible-body">
-                    <p>
-                      <h5>Bostan Ion</h5>
-                      <span><i className="mdi mdi-account small purple-text" /> Java Developer</span>
-                    </p>
+                    <p className="text">Bostan Ion
+                      <span className="right">
+                        <Link href="https://facebook.com/"><i className="mdi mdi-facebook-box small purple-text" /></Link>
+                        <Link href="https://www.github.com/"><i className="mdi mdi-github-box small purple-text" /></Link>
+                        <Link href="https://www.linkedin.com/"><i className="mdi mdi-linkedin-box small purple-text" /></Link>
+                      </span></p>
+                    <p><span><i className="mdi mdi-account small purple-text" /> Java Developer</span></p>
                     <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
                     <p><i className="mdi mdi-phone purple-text" /> +373 (60) 111111</p>
-                    <p><i className="mdi mdi-email purple-text" /> mail@domain.com</p>
-                    <p><i className="mdi mdi-cake-variant purple-text" /> 27th April 1992</p>
-                    <p><Link href="https://facebook.com/"><i className="mdi mdi-facebook-box small purple-text" /></Link>
-                      <Link href="https://www.github.com/"><i className="mdi mdi-github-box small purple-text" /></Link>
-                      <Link href="https://www.linkedin.com/"><i className="mdi mdi-linkedin-box small purple-text" /></Link>
-                      <Link href="skype:skype_king51?userinfo"><i className="mdi mdi-skype small purple-text" /></Link>
-                    </p>
                   </div>
 
                 </li>
@@ -72,6 +67,10 @@ export default class Bostan extends React.Component {
           }
           .subimage{
             margin-top:130px;
+          }
+          .text {
+            font-size: 2rem;
+            margin: 0;
           }
           @media only screen and (max-width: 992px){.subimage {
             margin-top: 250px;

@@ -1,6 +1,7 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import Link from 'next/link'
 import Sidebar from '../Components/Sidebar'
+import css from 'next/css'
 
 export default class MyDocument extends Document {
   static async getInitialProps (ctx) {
@@ -23,28 +24,13 @@ export default class MyDocument extends Document {
             <Sidebar />
           </header>
           <Main />
-          <footer>
+          <footer className={footer}>
             <div className="footer-copyright">
               <div className="container center">
                     Made by <Link className="purple" href="/team">HUBB Team</Link>
               </div>
             </div>
           </footer>
-          <style jsx>{`
-            
-            footer {
-              position: fixed;
-              right: 0;
-              bottom: 0;
-              left: 0;
-              padding-top: 1rem;
-              padding-bottom: 1rem;
-              background-color: #efefef;
-              text-align: center;
-            }
-
-          
-          `}</style>
 
           <script src="/static/bower_components/jquery/dist/jquery.js" />
           <script src="/static/bower_components/materialize/dist/js/materialize.js" />
@@ -54,4 +40,15 @@ export default class MyDocument extends Document {
     )
   }
 }
+
+const footer = css({
+  position: 'fixed',
+  right: 0,
+  bottom: 0,
+  left: 0,
+  'padding-top': '1rem',
+  'padding-bottom': '1rem',
+  'background-color': '#efefef',
+  'text-align': 'center'
+})
 

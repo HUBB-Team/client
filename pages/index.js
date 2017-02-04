@@ -25,13 +25,17 @@ export default class Default extends React.Component {
           main{
             width:100%;
             overflow:auto;
+            position: relative;
           }
           
           .map{
             background-color: #e43;
-            width: 100%;
-            min-width: 1000px;
-            min-height:500px;
+            position:fixed;
+            maggin: 0 auto;
+            width: 1000px;
+            height:500px;
+            background-image: url(/static/images/map.png);
+            background-size:cover;
           }
         `}</style>
       </div>

@@ -6,5 +6,4 @@ export default class Main extends React.Component {
       <Link href="/">Main</Link>
     )
   }
-
 }

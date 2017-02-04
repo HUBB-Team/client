@@ -10,8 +10,7 @@ export default class Person extends React.Component {
         <style jsx>{`
             .person{
               position: absolute;
-              // top:${top};
-              // left:${left};
+
               width:10px;
               height:10px;
               background-color:red;

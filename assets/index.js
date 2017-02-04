@@ -1,12 +1,12 @@
 window.STATE = {}
 document.getElementById('frame').onclick = () => {
   document.getElementById('video').src = ''
-  document.getElementById('frame').style.display = 'none'
+  document.getElementById('frameWrapper').style.display = 'none'
 }
 
 const showFrame = (url) => {
   console.log(url)
-  document.getElementById('frame').style.display = 'block'
+  document.getElementById('frameWrapper').style.display = 'block'
   document.getElementById('video').src = url
 }
 
@@ -20,7 +20,7 @@ const getPersons = () => [
     left: '200px',
     camera: 'https://www.youtube.com/embed/rdPR_hOt2ms'
   }, {
-    top: '300px',
+    top: '250px',
     left: '400px',
     camera: 'https://www.youtube.com/embed/_ZXUCQc2Z78'
   }, {

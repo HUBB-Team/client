@@ -2,12 +2,13 @@
 import { Dropdown, NavItem, Navbar } from 'react-materialize'
 
 import {selPerson} from '../functions/frontend'
+import Person from '../person/Person'
 
 export default class Default extends React.Component {
   render () {
     return (
       <div>
-        <Navbar brand="Online Map" right>
+        <Navbar brand=" &nbsp;Online Map " right>
           <Dropdown trigger={
             <a className="dropdown-button" href="#!" data-activates="dropdown1">Lucratori<i className="material-icons right">arrow_drop_down</i></a>
           }>
@@ -18,25 +19,33 @@ export default class Default extends React.Component {
         </Navbar>
         <main >
           <div ref="map" className="map" >
-            map
+            <div className="persons" >
+              <Person personId="1" />
+              <Person personId="2" />
+              <Person personId="3" />
+              <Person personId="4" />
+            </div>
           </div>
+
         </main>
         <style jsx>{`
           main{
             width:100%;
             overflow:auto;
-            position: relative;
+            padding:0px;
+            position:relative;
           }
-          
           .map{
-            background-color: #e43;
-            position:fixed;
-            maggin: 0 auto;
-            width: 1000px;
-            height:500px;
+            position:relative;
+            margin: 0 auto;
+            top:0;
+            left:0;
+            width:1100px;
+            height:600px;
             background-image: url(/static/images/map.png);
             background-size:cover;
           }
+          
         `}</style>
       </div>
     )
